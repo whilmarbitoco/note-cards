@@ -16,7 +16,7 @@
         </section>
       </div>
       <div class="note-body">
-        <p class="my-note">
+        <p class="my-note" contenteditable="true">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores
           porro iste perspiciatis pariatur saepe quaerat.
         </p>
@@ -52,6 +52,7 @@ const color = useColorStore();
 }
 
 .note-shadow {
+  background-color: #78c1f3;;
   position: absolute;
   left: 20px;
   top: 20px;
